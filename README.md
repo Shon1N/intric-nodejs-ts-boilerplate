@@ -1,4 +1,4 @@
-# Node.js + TypeScript Project
+#Easy #Beginner_Friendly #Node.js  #TypeScript Project
 
 This is a simple Node.js project set up with TypeScript. The project includes a demo controller with a sample `GetAllAsync` method, accessible via the following endpoint:
 
@@ -36,26 +36,32 @@ Demo Endpoint:
 
 Method: GET
 
-URL: http://localhost:<port>/api/demo/GetAllAsync
+URL: `http://localhost:<port>/api/demo/GetAllAsync`
 
-Description: Returns a sample response for demonstration purposes.
+`Description: Returns a sample response for demonstration purposes.`
 
 How to Run
 For development, use:
 
 bash
 npm run dev
-For production (make sure the app is built first):
+
+`For production (make sure the app is built first):`
 
 bash
 npm start
 Access the API at:
 
 plaintext
-http://localhost:<port>/api/demo/GetAllAsync
+
+`http://localhost:<port>/api/demo/GetAllAsync`
+
 File Structure
+
 Here's a simplified overview of the project's file structure:
 
+
+`
 /project-root
 │
 ├── /server
@@ -71,6 +77,9 @@ Here's a simplified overview of the project's file structure:
 ├── package.json            # Project metadata and scripts
 ├── tsconfig.json           # TypeScript configuration
 └── README.md               # Project documentation
+`
+
+
 Contribution
 If you'd like to contribute, feel free to fork the repository and submit a pull request.
 
